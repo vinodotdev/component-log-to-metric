@@ -1,0 +1,1 @@
+{"buildTargets":["all","build","build/struct_to_metric.wasm","build/struct_to_metric_s.wasm","clean","codegen","components","doc","help","interface.json","list","src/components","src/components.rs","test"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

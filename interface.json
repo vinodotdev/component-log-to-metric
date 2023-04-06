@@ -1,0 +1,28 @@
+{
+  "name": "struct-to-metric",
+  "types": {},
+  "components": {
+    "counter": {
+      "name": "counter",
+      "inputs": {
+        "message": {
+          "type": "struct"
+        },
+        "summary_field": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "list",
+          "element": {
+            "type": "string"
+          }
+        }
+      },
+      "outputs": {
+        "count": {
+          "type": "u32"
+        }
+      }
+    }
+  }
+}

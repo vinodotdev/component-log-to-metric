@@ -1,0 +1,25 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/fshaikh/Developer/component-struct-to-metric'
+echo Making directory \"build\"
+ 
+echo Building interface.json from schemas in ./schemas
+vino-codegen json interface "struct-to-metric" ./schemas -o interface.json -f
+ 
+echo Making directory \"src/components\"
+ 
+echo Generating component stubs
+vino-codegen rust component ./interface.json --type wasm -a -o ./src/components
+echo Generating src/components.rs
+vino-codegen rust integration ./interface.json --type wasm -f -o src/components.rs
+rustfmt src/components.rs
+ 
+echo Building artifact
+cargo build --target wasm32-unknown-unknown --release
+echo Copying binary to build/struct_to_metric.wasm
+cp ./target/wasm32-unknown-unknown/release/struct_to_metric.wasm build/
+ 
+echo Signing build/struct_to_metric.wasm
+vinoc sign build/struct_to_metric.wasm ./interface.json --ver=0.1.0 --rev=0
+echo Created build/struct_to_metric_s.wasm
+make: Leaving directory `/Users/fshaikh/Developer/component-struct-to-metric'
+ 

@@ -1,0 +1,494 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Sun Aug 21 14:32:19 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from `Makefile', line 48)
+INTERFACE := ./interface.json
+# makefile (from `Makefile', line 52)
+TARGET = wasm32-unknown-unknown
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/fshaikh/Developer/component-struct-to-metric
+# makefile (from `Makefile', line 17)
+SHELL := bash
+# environment
+PROMPT_EOL_MARK = 
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+DOCKER_USERNAME = fawadcandle
+# makefile (from `Makefile', line 36)
+CRATE_FS_NAME := struct_to_metric
+# makefile (from `Makefile', line 38)
+CRATE_VERSION := 0.1.0
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# makefile (from `Makefile', line 46)
+SIGNED_ARTIFACT := build/struct_to_metric_s.wasm
+# environment
+PULUMI_CONFIG_PASSPHRASE = WhbYAfgLWEjq8od28hpb
+# environment
+VSCODE_CWD = /Users/fshaikh/Developer/component-struct-to-metric
+# makefile (from `Makefile', line 27)
+COMPONENTS_DIR := ./src/components
+# environment
+OCI_USERNAME = fawadasaurus
+# environment
+PATH = /Users/fshaikh/.wasmflow/bin:/Users/fshaikh/.wasmflow/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/fshaikh/.cargo/bin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# makefile (from `Makefile', line 55)
+CODEGEN := vino-codegen
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+KUBECONFIG = /Users/fshaikh/.kube/config
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.ySjapgRCRG/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `Makefile', line 31)
+SCHEMAS = $(wildcard ${SCHEMA_DIR}/*.widl)
+# environment
+SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS = /Users/fshaikh/Library/WebKit/Databases
+# makefile (from `Makefile', line 40)
+WORKSPACE_ROOT := .
+# environment
+PWD = /Users/fshaikh/Developer/component-struct-to-metric
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# makefile (from `Makefile', line 58)
+CLEAN_FILES := ./src/components.rs build/struct_to_metric.wasm build/struct_to_metric_s.wasm ./src/components/mod.rs ./interface.json
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/fshaikh
+# environment
+AZURE_STORAGE_KEY = r94op1p25W+kU6cXXSmNW1peK/k66/NlV/ZfhX3XE8+2UL67aLVTFugnXPN9kO1ennkxCKN4zJ52+AStfJXHTA==
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/fshaikh/Library/Application Support/Code/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+LOGNAME = fshaikh
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+ZSH = /Users/fshaikh/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `Makefile', line 18)
+MKDIR := mkdir -p
+# environment
+AZURE_STORAGE_ACCOUNT = candleiac
+# environment
+OCI_PASSWORD = 26ua65dfesjqUw2CmvENysB9NdfGCb34
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# environment
+SHLVL = 3
+# default
+MAKE_VERSION := 3.81
+# makefile (from `Makefile', line 28)
+GENERATED_MODULE := ./src/components.rs
+# environment
+USER = fshaikh
+# makefile (from `Makefile', line 1)
+.DEFAULT_GOAL := all
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w0t4p0:AB153C0F-796B-4B3B-8A28-7B4F99E50A87
+# makefile (from `Makefile', line 42)
+ARTIFACT_DIR := build
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 26)
+SCHEMA_DIR := ./schemas
+# environment
+DOCKER_PASSWORD = 1d43a7e2-0dde-45d8-9e6b-0d4800a8fdd8
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# makefile (from `Makefile', line 54)
+VINOC = vinoc
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/sw/lp7r36617yjbtmzgk45sg3ww0000gn/T/
+# automatic
+*F = $(notdir $*)
+# makefile (from `Makefile', line 6)
+_OS := ""
+# environment
+VSCODE_IPC_HOOK = /Users/fshaikh/Library/Application Support/Code/1.70.1-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS =  --warn-undefined-variables -Rrqp
+# makefile (from `Makefile', line 50)
+RUST_SOURCES := src/components.rs src/lib.rs src/components/__multi__.rs src/components/counter.rs src/components/summarize.rs
+# environment
+MFLAGS = - --warn-undefined-variables -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.16
+# makefile (from `Makefile', line 20)
+.SHELLFLAGS := -eu -o pipefail -c
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.9628359.9628365.D6575BB1-4A43-4C5E-B59F-0C5F5D43257E
+# environment
+LC_TERMINAL_VERSION = 3.4.16
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+ITERM_SESSION_ID = w0t4p0:AB153C0F-796B-4B3B-8A28-7B4F99E50A87
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+COLORFGBG = 15;0
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# makefile (from `Makefile', line 44)
+BUILD_ARTIFACT := build/struct_to_metric.wasm
+# automatic
+<F = $(notdir $<)
+# environment
+ITERM_PROFILE = Default
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+CONDA_CHANGEPS1 = no
+# environment
+VIRTUAL_ENV_DISABLE_PROMPT = 12
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+AZURE_KEYVAULT_AUTH_VIA_CLI = true
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# makefile (from `Makefile', line 34)
+CRATE_NAME := struct-to-metric
+# environment
+VSCODE_PID = 32663
+# variable set hash-table stats:
+# Load=111/1024=11%, Rehash=0, Collisions=10/178=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777232, inode 407622): 16 files, no impossibilities.
+# src/components.rs (device 16777232, inode 407725): could not be opened.
+# ./schemas (device 16777232, inode 407720): 3 files, no impossibilities.
+# src/lib.rs (device 16777232, inode 407729): could not be opened.
+# src (device 16777232, inode 407723): 5 files, no impossibilities.
+# src/components (device 16777232, inode 407724): 5 files, no impossibilities.
+
+# 29 files, no impossibilities in 6 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+src/components.rs: interface.json
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 66):
+	@echo Generating $@
+	@$(CODEGEN) rust integration $(INTERFACE) --type wasm -f -o $@
+	@rustfmt $@
+	
+
+all: build/struct_to_metric_s.wasm
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+.PHONY: all clean codegen doc test list help
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/components/__multi__.rs:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+build/struct_to_metric_s.wasm: build/struct_to_metric.wasm interface.json
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-09 21:56:27
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  commands to execute (from `Makefile', line 61):
+	@echo Signing $(BUILD_ARTIFACT)
+	@$(VINOC) sign $(BUILD_ARTIFACT) $(INTERFACE) --ver=$(CRATE_VERSION) --rev=0
+	@echo Created $(SIGNED_ARTIFACT)
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-14 17:46:29
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+components: interface.json src/components
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := components
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := interface.json src/components
+# automatic
+# | := 
+# automatic
+# < := interface.json
+# automatic
+# ^ := interface.json src/components
+# automatic
+# ? := interface.json src/components
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/13=15%
+#  commands to execute (from `Makefile', line 79):
+	@echo Generating component stubs
+	@$(CODEGEN) rust component $(INTERFACE) --type wasm -a -o $(COMPONENTS_DIR)
+	
+
+test: build
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 110):
+	cargo test
+	
+
+build:
+#  Implicit rule search has not been done.
+#  Last modified 2022-04-25 16:04:05
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 75):
+	@echo Making directory \"$@\"
+	$(shell $(MKDIR) $@)
+	
+
+# Not a target:
+src/components/summarize.rs:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+schemas/counter.widl:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-09 21:56:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 120):
+	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n  make \033[36m<target>\033[0m\n"} /^[a-zA-Z0-9_\-.*]+:.*?##/ { printf "  \033[36m%-32s\033[0m %s\n", $$1, $$2 } /^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } ' $(MAKEFILE_LIST)
+	
+
+build/struct_to_metric.wasm: build components src/components.rs src/components.rs src/lib.rs src/components/__multi__.rs src/components/counter.rs src/components/summarize.rs
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-09 21:56:27
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  commands to execute (from `Makefile', line 83):
+	@echo Building artifact
+	cargo build --target $(TARGET) --release
+	@echo Copying binary to $(BUILD_ARTIFACT)
+	@cp $(WORKSPACE_ROOT)/target/$(TARGET)/release/$(CRATE_FS_NAME).wasm build/
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/components/counter.rs:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 99):
+	@rm -f $(CLEAN_FILES)
+	
+
+list:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 116):
+	@echo $(SCHEMAS)
+	
+
+codegen: interface.json components src/components.rs src/lib.rs
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+interface.json: schemas/counter.widl
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-09 21:56:25
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 91):
+	@echo Building $@ from schemas in $(SCHEMA_DIR)
+	@$(CODEGEN) json interface "$(CRATE_NAME)" $(SCHEMA_DIR) -o $@ -f
+	
+
+# Not a target:
+src/lib.rs:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+doc:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 106):
+	@echo Unimplemented
+	
+
+src/components:
+#  Implicit rule search has not been done.
+#  Last modified 2022-04-25 16:04:02
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 71):
+	@echo Making directory \"$@\"
+	$(shell $(MKDIR) $@)
+	
+
+# files hash-table stats:
+# Load=23/1024=2%, Rehash=0, Collisions=0/70=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Aug 21 14:32:19 2022
+
+ 

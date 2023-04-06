@@ -1,0 +1,13 @@
+namespace "counter"
+
+"input the parsed log message, the field name with value to be summarized and other field names that will be used as tags"
+type Inputs {
+  message: struct,
+  summary_field: string,
+  tags: [string]
+}
+
+"returns true that the operation has been completed"
+type Outputs {
+  count: u32
+}
